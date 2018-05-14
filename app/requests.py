@@ -34,4 +34,4 @@ def get_news(category):
             mydata.append(News(id,name,author,title,description,url,urltoimage,publishedat))
 
     
-#     return mydata
+    return mydata
