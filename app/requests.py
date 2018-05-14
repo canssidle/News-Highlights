@@ -13,7 +13,7 @@ def configure_request(app):
 def get_news(category):
     get_news_url = base_url.format(category,api_key)
 
-#     mydata = []
+    mydata = []
 
 #     with urllib.request.urlopen(get_news_url) as url:
 #         highlights = url.read()
