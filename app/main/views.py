@@ -12,6 +12,6 @@ def index():
 def categories(category):
     mydata = get_news(category)
 
-#     return render_template("categories.html",data=mydata)
+    return render_template("categories.html",data=mydata)
 
 
