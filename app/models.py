@@ -9,5 +9,5 @@ class News:
         self.urlToImage = urlToImage
         self.publishedAt = publishedAt
 
-    # def __repr__(self):
-    #     return f"News : id {self.id} name {self.name} title {self.title}"
+    def __repr__(self):
+        return f"News : id {self.id} name {self.name} title {self.title}"
