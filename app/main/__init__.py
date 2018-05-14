@@ -1,13 +1,13 @@
 from flask import Blueprint
 
 
-# main = Blueprint('main', __name__)
+main = Blueprint('main', __name__)
 
-# from . import views ,errors
+from . import views ,errors
 
 
-# def create_app(config_name):
-#     app = Flask(__name__)
+def create_app(config_name):
+    app = Flask(__name__)
 
 #     #Creating the app configurations
 
