@@ -34,5 +34,4 @@ In this News Highlights website the user is able to search the website on their 
 If any complications occur email me at canssidlewairimu@gmail.com 
 ### License
 * MIT 
-Copyright (c) 2018 **Canssidle**  -->
-   -->
+Copyright (c) 2018 **Canssidle**  
