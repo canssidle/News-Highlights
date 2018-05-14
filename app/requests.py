@@ -15,23 +15,23 @@ def get_news(category):
 
     mydata = []
 
-#     with urllib.request.urlopen(get_news_url) as url:
-#         highlights = url.read()
+    with urllib.request.urlopen(get_news_url) as url:
+        highlights = url.read()
     
-#         newhighlights = json.loads(highlights)
-#         articles = newhighlights['articles']
+        newhighlights = json.loads(highlights)
+        articles = newhighlights['articles']
 
-#         for article in articles:
-#             id = article['source']['id']
-#             name = article['source']['name']
-#             author = article['author']
-#             title = article['title']
-#             description = article['description']
-#             url = article['url']
-#             urltoimage = article['urlToImage']
-#             publishedat = article['publishedAt']
+        for article in articles:
+            id = article['source']['id']
+            name = article['source']['name']
+            author = article['author']
+            title = article['title']
+            description = article['description']
+            url = article['url']
+            urltoimage = article['urlToImage']
+            publishedat = article['publishedAt']
 
-#             mydata.append(News(id,name,author,title,description,url,urltoimage,publishedat))
+            mydata.append(News(id,name,author,title,description,url,urltoimage,publishedat))
 
     
 #     return mydata
