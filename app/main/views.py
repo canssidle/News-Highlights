@@ -8,9 +8,9 @@ def index():
    
     return render_template("index.html")
     
-# @main.route("/category/<string:category>")  
-# def categories(category):
-#     mydata = get_news(category)
+@main.route("/category/<string:category>")  
+def categories(category):
+    mydata = get_news(category)
 
 #     return render_template("categories.html",data=mydata)
 
