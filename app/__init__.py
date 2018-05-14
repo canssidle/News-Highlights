@@ -1,5 +1,5 @@
 from flask import Flask
-# from flask_bootstrap import Bootstrap
+from flask_bootstrap import Bootstrap
 # from .main import main as main_blueprint
 # from config import config_options
 # from .requests import configure_request
